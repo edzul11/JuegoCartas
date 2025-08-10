@@ -21,7 +21,11 @@ func get_spell_slot(player_index: int, column: int) -> Slot:
 	return spell_slots[player_index][column]
 
 func get_free_slot(player_index: int, type: String) -> Slot:
-	var arr = monster_slots[player_index] if type == "monster" else spell_slots[player_index]
+	var arr: Array
+	if type == "monster":
+		arr = monster_slots[player_index]
+	else:
+		arr = spell_slots[player_index]
 	for s in arr:
 		if s.is_empty():
 			return s

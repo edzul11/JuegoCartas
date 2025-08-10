@@ -1,51 +1,51 @@
 [
   {
-    "id": "goblin",
-    "name": "Goblin",
-    "type": "monster",
-    "cost": 1,
-    "atk": 1,
-    "def": 1,
-    "effects": [
-      {"trigger": "on_play", "effect": "buff_self_atk", "value": 1}
-    ]
+	"id": "goblin",
+	"name": "Goblin",
+	"type": "monster",
+	"cost": 1,
+	"atk": 1,
+	"def": 1,
+	"effects": [
+	  {"trigger": "on_play", "effect": "buff_self_atk", "value": 1}
+	]
   },
   {
-    "id": "knight",
-    "name": "Knight",
-    "type": "monster",
-    "cost": 3,
-    "atk": 3,
-    "def": 4,
-    "effects": []
+	"id": "knight",
+	"name": "Knight",
+	"type": "monster",
+	"cost": 3,
+	"atk": 3,
+	"def": 4,
+	"effects": []
   },
   {
-    "id": "cleric",
-    "name": "Cleric",
-    "type": "monster",
-    "cost": 2,
-    "atk": 1,
-    "def": 3,
-    "effects": [
-      {"trigger": "on_attack", "effect": "heal_self_def", "value": 1}
-    ]
+	"id": "cleric",
+	"name": "Cleric",
+	"type": "monster",
+	"cost": 2,
+	"atk": 1,
+	"def": 3,
+	"effects": [
+	  {"trigger": "on_attack", "effect": "heal_self_def", "value": 1}
+	]
   },
   {
-    "id": "fireball",
-    "name": "Fireball",
-    "type": "spell",
-    "cost": 2,
-    "effects": [
-      {"trigger": "on_play", "effect": "deal_damage_player", "value": 3}
-    ]
+	"id": "fireball",
+	"name": "Fireball",
+	"type": "spell",
+	"cost": 2,
+	"effects": [
+	  {"trigger": "on_play", "effect": "deal_damage_player", "value": 3}
+	]
   },
   {
-    "id": "inspiration",
-    "name": "Inspiration",
-    "type": "spell",
-    "cost": 1,
-    "effects": [
-      {"trigger": "on_play", "effect": "draw_cards", "value": 2}
-    ]
+	"id": "inspiration",
+	"name": "Inspiration",
+	"type": "spell",
+	"cost": 1,
+	"effects": [
+	  {"trigger": "on_play", "effect": "draw_cards", "value": 2}
+	]
   }
 ]
